@@ -4,7 +4,7 @@
        style="height: 40px !important;width: 144px !important;">
  </a>
 
-# Caesar_cipher
+# El cifrado César
 Uno de los sistemas de cifrado más sencillos es el cifrado César, utilizado hace más de 2000 años. El cifrado César desplaza la letra un número fijo de posiciones hacia la izquierda o hacia la derecha. 
 
 El cifrado César puede utilizar una clave entre 1 y 25. Con una clave de 1, cada letra se desplaza una posición, donde A se convierte en B y Z en A. Con una clave de 25, cada letra se desplaza 25 posiciones, donde A se convierte en Z y B en A. Una clave de 0 significa que no hay cambios; además, una clave de 26 tampoco provocará cambios, ya que provocaría una rotación completa. En consecuencia, concluimos que el cifrado César tiene un espacio de claves de 25; hay 25 claves diferentes entre las que el usuario puede elegir.
