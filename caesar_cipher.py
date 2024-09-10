@@ -18,13 +18,10 @@ def caesar_cipher(text, shift):
 def caesar_decipher(text, shift):
   return caesar_cipher(text, -shift)
 
-plain_text = ''
-criptogram = 'YMNX NX FQUMF GWFAT HTSYFHYNSL YFSLT MTYJQ RNPJ'
+plain_text = 'ESTE ES ALPHA BRAVO CONTACTANDO A MIKE DEL HOTEL TANGO'
+criptogram = 'JXYJ JX FQUMF GWFAT HTSYFHYFSIT F RNPJ IJQ MTYJQ YFSLT'
 key = 5
 
 print(caesar_cipher(plain_text,key))
 print(caesar_decipher(criptogram,key))
 
-# Brute force in case you don't have the key. In caesar the key could only between 1 and 25
-for i in range(1,26):
-    print(caesar_decipher(criptogram,i))
