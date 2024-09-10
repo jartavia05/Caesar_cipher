@@ -19,7 +19,7 @@ def caesar_decipher(text, shift):
   return caesar_cipher(text, -shift)
 
 plain_text = 'ESTE ES ALPHA BRAVO CONTACTANDO A MIKE DEL HOTEL TANGO'
-criptogram = 'JXYJ JX FQUMF GWFAT HTSYFHYFSIT F RNPJ IJQ MTYJQ YFSLT'
+criptogram = 'Zlwvzjxj Zpcvcol'#'JXYJ JX FQUMF GWFAT HTSYFHYFSIT F RNPJ IJQ MTYJQ YFSLT'
 key = 5
 
 print(caesar_cipher(plain_text,key))
